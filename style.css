@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+}
+
+.navbar {
+    background-color: rgb(92, 0, 76);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-bottom: 5rem;
+}
+
+.head {
+    font-size: 2rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.navbar-btn {
+    background-color: rgb(167, 8, 145);
+    border: 1px solid rgb(240, 249, 250);
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    font-weight: bolder;
+    color: rgb(232, 243, 245);
+    cursor: pointer;
+}
+
+
+.event {
+    width: 400px;
+    background-color: rgb(247, 213, 242);
+    padding: 2rem;
+    border: 1px solid rgb(224, 107, 215);
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.event label {
+    display: block;
+    margin: 5px 0;
+}
+
+.event input {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.start {
+    background-color: #4b2354;
+}
+
+.delete {
+    background-color: #e60050;
+}
+
+.add-event {
+    background-color: #4b2354;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
